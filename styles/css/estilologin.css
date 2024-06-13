@@ -1,0 +1,123 @@
+:root {
+    --bg-color: #fff;
+    --main-color: gold;
+    --text-color: #010101;
+    --Snd-color: #434343;
+    --other-color: #666666;
+    --big-font: 5rem;
+    --h2-font: 2.3rem;
+    --p-font: 1.3rem;
+    --black1: #e8e1e1;
+}
+
+.form {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background-color: #1b1b1b;
+}
+
+form {
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    width: 70vh;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+h2 {
+    color: #fdfdfd;
+    font-size: 35px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #eeeeee;
+    margin-bottom: 20px;
+
+}
+
+.lineLogin {
+    display: inline-block;
+    width: 50px;
+    height: 7px;
+    background: linear-gradient(90deg, rgba(214, 0, 254, 1) 0%, rgba(136, 1, 254, 1) 77%);
+}
+
+label {
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ededed;
+    color: #1b1b1b;
+    outline: none;
+}
+
+input::placeholder {
+    color: #c0c0c0;
+
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: #ffcfff;
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgb(0, 254, 148) 0%, rgb(77, 1, 254) 77%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background: linear-gradient(90deg, rgb(0, 176, 103) 0%, rgb(51, 0, 168) 77%);
+
+}
+
+
+
+@media (max-width:990px) {
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input {
+        padding: 15px 10px;
+    }
+}

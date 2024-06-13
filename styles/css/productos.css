@@ -1,0 +1,232 @@
+:root {
+    --bg-color: #fff;
+    --main-color: gold;
+    --text-color: #010101;
+    --Snd-color: #434343;
+    --other-color: #666666;
+    --big-font: 4.5rem;
+    --h2-font: 2.3rem;
+    --p-font: 1.3rem;
+    --black1: #e8e1e1;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+/* _______________________________________________________ */
+
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-image: url(../../assets/imagenes/collage1.png);
+    background-size: cover;
+
+
+}
+
+.homeColor {
+    background-color: #00000029;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .home {
+        background-image: url(../../assets/imagenes/collage1.png);
+    }
+}
+
+.home-text h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: var(--big-font);
+    color: #ffffff;
+    line-height: 1.3;
+    /* margin-bottom: 25px; */
+    margin-left: 10px;
+}
+
+
+
+/* _____________________ secction search _________________________________ */
+
+.searchCont {
+    width: 100%;
+    height: 60px;
+    background: #11101b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ___________________________  Estructura de Productos  _____________________________________ */
+
+.productos {
+    min-height: 70vh;
+    background: #0d0c17;
+    padding: 40px 0;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+}
+
+.produc {
+    width: 250px;
+    height: 370px;
+    background: #fefefe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.imagenes {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 230px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.tituloproduc {
+    padding: 5px 15px;
+}
+
+.tituloproduc h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+    color: #393939;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.precioproduc {
+    padding: 0 15px;
+}
+
+.precioproduc h3 {
+    font-size: 0.9em;
+    color: #141414;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* _____________________________ Carta del producto ___________________________________ */
+
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+}
+
+.box-img {
+    overflow: hidden;
+}
+
+.box-img img {
+    width: 450px;
+    height: 300px;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.box-img:hover img {
+    transform: scale(1.1);
+}
+
+.in-bxx {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.in-text p {
+    color: var(--other-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.in-icon i {
+    vertical-align: middle;
+    color: var(--other-color);
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.in-icon a {
+    color: var(--other-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-box h3 {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.main-box h3:hover {
+    color: var(--main-color);
+
+}
+
+/* ___________________________________________________________________________*/
+
+
+@media (max-width: 1200px) {
+    header {
+        padding: 12px 3%;
+    }
+
+    /* section {
+        padding: 15px 3% 0px;
+
+    } */
+}
+
+
+@media (max-width: 640px) {
+    :root {
+        --big-font: 3.8rem;
+        --h2-font: 2rem;
+        --p-font: 1.1rem;
+    }
+
+    .home-text h1 {
+        line-height: 1.1;
+    }
+
+    .home {
+        height: 45vh;
+    }
+
+    .new-product {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column
+    }
+}
