@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 750px) {
     .ContMyV {
-        width: 80%;
+        width: 90%;
         padding: 10px;
         flex-direction: column;
     }
