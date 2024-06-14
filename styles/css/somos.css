@@ -16,13 +16,11 @@
     display: flex;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .ti h2 {
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .ContMyV {
@@ -31,7 +29,6 @@
     padding: 10px;
     display: flex;
     align-items: center;
-
 }
 
 .ContB {
@@ -52,8 +49,6 @@
     padding-right: 15px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
 }
 
 .InfoMyV {
@@ -63,13 +58,10 @@
     padding: 10px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
-
 .imgSVG {
     width: 15%;
 }
-
 
 @media only screen and (max-width: 750px) {
     .ContMyV {
@@ -77,20 +69,19 @@
         padding: 10px;
         flex-direction: column;
     }
-
     .TitleMyV {
         padding: 15px;
     }
-
+    .ContB {
+        width: 90%;
+    }
     .InfoMyV {
         padding: 10px;
-
     }
 
     .imgSVG {
         width: 40%;
         padding: 15px;
-
     }
 
 }
